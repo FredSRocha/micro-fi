@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  word-break: break-all;
+}
+
+h1 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 560px) {
+  .logo {
+    max-width: 420px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+#loanDetails {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#actions {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #bb0c2c;
+  font-weight: 700;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

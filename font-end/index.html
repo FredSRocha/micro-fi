@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MICRO-FI</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+  <h1><img src="logo-black.png" class="logo" alt="MICRO-FI"><br>PAINEL ADMINISTRATIVO</h1>
+  
+  <div id="loanDetails">
+    <p><strong>Investidor:</strong> 0x2dEA1fAaD463a63B8d3F55CD7b18952258E4D5da</p>
+    <p><strong>Credor (MICRO-FI):</strong> <span id="lender"></span></p>
+    <p><strong>Mutuário:</strong> <span id="borrower"></span></p>
+    <p><strong>Valor do Empréstimo:</strong> <span id="loanAmount"></span></p>
+    <p><strong>Taxa de Juros:</strong> <span id="interestRate"></span>%</p>
+    <p><strong>Valor + Juros:</strong> <span id="repaymentAmount"></span></p>
+    <p><strong>Data de Vencimento:</strong> <span id="dueDate"></span></p>
+    <p><strong>Foi pago?:</strong> <span id="isPaid"></span></p>
+    <p><strong>Score do Mutuário (Nível):</strong> <span id="borrowerScore"></span></p>
+  </div>
+
+  <div id="actions">
+    <button id="repayButton">Pagar Empréstimo</button>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.1/web3.min.js'></script>
+  <script  src="./script.js"></script>
+</body>
+</html>
